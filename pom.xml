@@ -1,0 +1,256 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.client</groupId>
+	<artifactId>APIAutomation</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>Global Logic API Automation</name>
+	<url>http://maven.apache.org</url>
+
+
+	<properties>
+
+		<!-- General properties -->
+		<java-compliler.version>1.8</java-compliler.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<aspectjweaver>1.9.1</aspectjweaver>
+
+		<!-- Rest Assured properties -->
+		<rest.assured>3.3.0</rest.assured>
+		<json.schema.validator>4.0.0</json.schema.validator>
+		<jackson.databind>2.9.9</jackson.databind>
+		<json.path>3.3.0</json.path>
+
+
+		<!-- TestNg properties -->
+		<testng.version>7.1.0</testng.version>
+
+		<!-- Maven properties -->
+		<maven-surefire-plugin.version>2.22.0</maven-surefire-plugin.version>
+		<maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+
+
+		<!-- Allure properties -->
+		<allure.testng>2.13.3</allure.testng>
+		<allure.environment.writer>1.0.0</allure.environment.writer>
+
+		<!-- Log4J properties -->
+		<log4j.version>1.2.17</log4j.version>
+		<log4j-core.version>2.11.1</log4j-core.version>
+		<slf4j.jdk14>1.7.25</slf4j.jdk14>
+
+		<!-- Apache POI properties -->
+		<commons.io>1.3.2 </commons.io>
+		<poi>3.9</poi>
+		<poi.ooxml>3.9</poi.ooxml>
+		<poi.ooxml.schemas>3.9</poi.ooxml.schemas>
+		<poi.scratchpad>3.9</poi.scratchpad>
+		<ooxml.schemas>1.1</ooxml.schemas>
+		<openxml4j>1.0-beta</openxml4j>
+		<commons.lang3>3.9</commons.lang3>
+		<scribejava.apis>2.5.3</scribejava.apis>
+
+		<!-- Extentreports properties -->
+		<extentreports>3.1.5</extentreports>
+
+
+	</properties>
+
+
+	<dependencies>
+
+
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>${rest.assured}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>json-schema-validator</artifactId>
+			<version>${json.schema.validator}</version>
+		</dependency>
+
+		<dependency> <groupId>com.fasterxml.jackson.core</groupId> <artifactId>jackson-databind</artifactId> 
+			<version>${jackson.databind}</version> </dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>${jackson.databind}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>${jackson.databind}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>json-path</artifactId>
+			<version>${json.path}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.qameta.allure</groupId>
+			<artifactId>allure-testng</artifactId>
+			<version>${allure.testng}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.github.automatedowl</groupId>
+			<artifactId>allure-environment-writer</artifactId>
+			<version>${allure.environment.writer}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>${testng.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>${log4j-core.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>${log4j.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-jdk14</artifactId>
+			<version>${slf4j.jdk14}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>${commons.io}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>${poi}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>${poi.ooxml}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml-schemas</artifactId>
+			<version>${poi.ooxml.schemas}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-scratchpad</artifactId>
+			<version>${poi.scratchpad}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>ooxml-schemas</artifactId>
+			<version>${ooxml.schemas}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>openxml4j</artifactId>
+			<version>${openxml4j}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>${commons.lang3}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.github.scribejava</groupId>
+			<artifactId>scribejava-apis</artifactId>
+			<version>${scribejava.apis}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>${extentreports}</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjweaver</artifactId>
+			<version>1.9.1</version>
+		</dependency>
+
+
+	</dependencies>
+
+	<build>
+
+		<plugins>
+
+			<plugin>
+
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>${maven-surefire-plugin.version}</version>
+
+				<configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>src/test/resources/testrunners/${suiteXmlFile}</suiteXmlFile>
+					</suiteXmlFiles>
+					<argLine>
+						-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectjweaver}/aspectjweaver-${aspectjweaver}.jar"
+					</argLine>
+					<testFailureIgnore>true</testFailureIgnore>
+				</configuration>
+
+				<dependencies>
+					<dependency>
+						<groupId>org.aspectj</groupId>
+						<artifactId>aspectjweaver</artifactId>
+						<version>${aspectjweaver}</version>
+					</dependency>
+
+				</dependencies>
+
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${maven-compiler-plugin.version}</version>
+
+				<configuration>
+					<source>${java-compliler.version}</source>
+					<target>${java-compliler.version}</target>
+				</configuration>
+
+			</plugin>
+
+		</plugins>
+
+	</build>
+
+
+</project>
+
+	

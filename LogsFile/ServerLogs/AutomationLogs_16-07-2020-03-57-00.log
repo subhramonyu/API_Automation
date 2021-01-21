@@ -1,0 +1,900 @@
+2020-07-16 15:57:01 INFO  ApplicationLogs:40 - X
+2020-07-16 15:57:01 INFO  ApplicationLogs:40 - X
+2020-07-16 15:57:01 INFO  ApplicationLogs:40 - ****************result************************************************************************
+2020-07-16 15:57:01 INFO  ApplicationLogs:40 - $$$$$$$$$$$$$$$$$$$$$       Test Case started: reportPushwithMetaData    $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-07-16 15:57:01 INFO  ApplicationLogs:40 - X
+2020-07-16 15:57:01 INFO  ApplicationLogs:40 - X
+2020-07-16 15:57:01 INFO  ApplicationLogs:40 - X
+2020-07-16 15:57:01 INFO  ApplicationLogs:40 - X
+2020-07-16 15:57:01 INFO  ApplicationLogs:40 - ****************result************************************************************************
+2020-07-16 15:57:01 INFO  ApplicationLogs:40 - $$$$$$$$$$$$$$$$$$$$$       Test Case started: reportPushwithMetaData    $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-07-16 15:57:01 INFO  ApplicationLogs:40 - X
+2020-07-16 15:57:01 INFO  ApplicationLogs:40 - X
+2020-07-16 15:57:01 INFO  ApplicationLogs:40 - Constructing the request object
+2020-07-16 15:57:01 INFO  ApplicationLogs:40 - Creating request
+2020-07-16 15:57:01 INFO  ApplicationLogs:40 - Executing the requestcom.planSource.benefitSystem.restclient.PostAdapter@39ee94de[object=com.planSource.benefitSystem.pojo.MetaDataRequest@2fe74516,BASE URL=http://boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com,endPoint=/notify,contentType=application/json]
+2020-07-16 15:57:03 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com:80
+2020-07-16 15:57:03 DEBUG DefaultClientConnectionOperator:177 - Connecting to boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com:80
+2020-07-16 15:57:03 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-07-16 15:57:03 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-07-16 15:57:03 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2020-07-16 15:57:03 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-07-16 15:57:03 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2020-07-16 15:57:03 DEBUG DefaultClientConnection:274 - Sending request: POST /notify HTTP/1.1
+2020-07-16 15:57:03 DEBUG wire:73 -  >> "POST /notify HTTP/1.1[\r][\n]"
+2020-07-16 15:57:03 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2020-07-16 15:57:03 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-07-16 15:57:03 DEBUG wire:73 -  >> "Content-Length: 118[\r][\n]"
+2020-07-16 15:57:03 DEBUG wire:73 -  >> "Host: boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com[\r][\n]"
+2020-07-16 15:57:03 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-07-16 15:57:03 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)[\r][\n]"
+2020-07-16 15:57:03 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-16 15:57:03 DEBUG wire:73 -  >> "[\r][\n]"
+2020-07-16 15:57:03 DEBUG headers:278 - >> POST /notify HTTP/1.1
+2020-07-16 15:57:03 DEBUG headers:281 - >> Accept: */*
+2020-07-16 15:57:03 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2020-07-16 15:57:03 DEBUG headers:281 - >> Content-Length: 118
+2020-07-16 15:57:03 DEBUG headers:281 - >> Host: boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com
+2020-07-16 15:57:03 DEBUG headers:281 - >> Connection: Keep-Alive
+2020-07-16 15:57:03 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)
+2020-07-16 15:57:04 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2020-07-16 15:57:04 DEBUG wire:87 -  >> "{"guid":"185348","carrierLookup":"guardianinsurance","eventType":"enroll","orgID":903,"sizeOfOrg":345,"anomaly":false}"
+2020-07-16 15:57:04 DEBUG wire:73 -  << "HTTP/1.1 200 [\r][\n]"
+2020-07-16 15:57:04 DEBUG wire:73 -  << "Server: nginx/1.16.1[\r][\n]"
+2020-07-16 15:57:04 DEBUG wire:73 -  << "Date: Thu, 16 Jul 2020 10:28:18 GMT[\r][\n]"
+2020-07-16 15:57:04 DEBUG wire:73 -  << "Content-Type: application/json[\r][\n]"
+2020-07-16 15:57:04 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-07-16 15:57:04 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2020-07-16 15:57:04 DEBUG wire:73 -  << "[\r][\n]"
+2020-07-16 15:57:04 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 
+2020-07-16 15:57:04 DEBUG headers:262 - << HTTP/1.1 200 
+2020-07-16 15:57:04 DEBUG headers:265 - << Server: nginx/1.16.1
+2020-07-16 15:57:04 DEBUG headers:265 - << Date: Thu, 16 Jul 2020 10:28:18 GMT
+2020-07-16 15:57:04 DEBUG headers:265 - << Content-Type: application/json
+2020-07-16 15:57:04 DEBUG headers:265 - << Transfer-Encoding: chunked
+2020-07-16 15:57:04 DEBUG headers:265 - << Connection: keep-alive
+2020-07-16 15:57:04 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2020-07-16 15:57:04 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2020-07-16 15:57:04 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-07-16 15:57:04 DEBUG wire:73 -  << "ad[\r][\n]"
+2020-07-16 15:57:04 DEBUG wire:87 -  << "{"guid":"185348","carrierLookup":"guardianinsurance","eventType":"enroll","orgID":903,"sizeOfOrg":345,"isReceived":true,"message":"Success","isError":false,"isAnomaly":null}"
+2020-07-16 15:57:04 DEBUG wire:73 -  << "[\r][\n]"
+2020-07-16 15:57:04 DEBUG wire:73 -  << "0[\r][\n]"
+2020-07-16 15:57:04 DEBUG wire:73 -  << "[\r][\n]"
+2020-07-16 15:57:04 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@289a4b90
+2020-07-16 15:57:04 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2020-07-16 15:57:04 INFO  ApplicationLogs:40 - Verifying the response code
+2020-07-16 15:57:04 INFO  ApplicationLogs:40 - Verifying that the messages from the report queue has been consumed 
+2020-07-16 15:57:04 INFO  ApplicationLogs:40 - TO ensure that the batch process has been run atleast once
+2020-07-16 16:03:04 INFO  ApplicationLogs:40 - Executing the Request
+2020-07-16 16:03:04 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com:80
+2020-07-16 16:03:04 DEBUG DefaultClientConnectionOperator:177 - Connecting to boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com:80
+2020-07-16 16:03:05 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-07-16 16:03:05 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-07-16 16:03:05 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2020-07-16 16:03:05 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-07-16 16:03:05 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2020-07-16 16:03:05 DEBUG DefaultClientConnection:274 - Sending request: GET /report HTTP/1.1
+2020-07-16 16:03:05 DEBUG wire:73 -  >> "GET /report HTTP/1.1[\r][\n]"
+2020-07-16 16:03:05 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-07-16 16:03:05 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2020-07-16 16:03:05 DEBUG wire:73 -  >> "Host: boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com[\r][\n]"
+2020-07-16 16:03:05 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-07-16 16:03:05 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)[\r][\n]"
+2020-07-16 16:03:05 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-16 16:03:05 DEBUG wire:73 -  >> "[\r][\n]"
+2020-07-16 16:03:05 DEBUG headers:278 - >> GET /report HTTP/1.1
+2020-07-16 16:03:05 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2020-07-16 16:03:05 DEBUG headers:281 - >> Accept: */*
+2020-07-16 16:03:05 DEBUG headers:281 - >> Host: boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com
+2020-07-16 16:03:05 DEBUG headers:281 - >> Connection: Keep-Alive
+2020-07-16 16:03:05 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)
+2020-07-16 16:03:05 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2020-07-16 16:03:05 DEBUG wire:73 -  << "HTTP/1.1 200 [\r][\n]"
+2020-07-16 16:03:05 DEBUG wire:73 -  << "Server: nginx/1.16.1[\r][\n]"
+2020-07-16 16:03:05 DEBUG wire:73 -  << "Date: Thu, 16 Jul 2020 10:34:20 GMT[\r][\n]"
+2020-07-16 16:03:05 DEBUG wire:73 -  << "Content-Length: 0[\r][\n]"
+2020-07-16 16:03:05 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2020-07-16 16:03:05 DEBUG wire:73 -  << "[\r][\n]"
+2020-07-16 16:03:05 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 
+2020-07-16 16:03:05 DEBUG headers:262 - << HTTP/1.1 200 
+2020-07-16 16:03:05 DEBUG headers:265 - << Server: nginx/1.16.1
+2020-07-16 16:03:05 DEBUG headers:265 - << Date: Thu, 16 Jul 2020 10:34:20 GMT
+2020-07-16 16:03:05 DEBUG headers:265 - << Content-Length: 0
+2020-07-16 16:03:05 DEBUG headers:265 - << Connection: keep-alive
+2020-07-16 16:03:05 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2020-07-16 16:03:05 INFO  ApplicationLogs:40 - Getting the messages from the report queue
+2020-07-16 16:03:05 INFO  ApplicationLogs:40 - Verifying that all messages has been pushed from report queue
+2020-07-16 16:03:05 INFO  ApplicationLogs:40 - X
+2020-07-16 16:03:05 INFO  ApplicationLogs:40 - X
+2020-07-16 16:03:05 INFO  ApplicationLogs:40 - XXXXXXXXXXXXXXXXXXXXXX    TEST CASE PASSED:reportPushwithMetaDataXXXXXXXXXXXXXXXXXXXXXX
+2020-07-16 16:03:05 INFO  ApplicationLogs:40 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2020-07-16 16:03:05 INFO  ApplicationLogs:40 - ****************************************************************************************
+2020-07-16 16:03:05 INFO  ApplicationLogs:40 - ****************************************************************************************
+2020-07-16 16:03:05 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:60780<->10.111.51.127:80 closed
+2020-07-16 16:03:05 INFO  ApplicationLogs:40 - X
+2020-07-16 16:03:05 INFO  ApplicationLogs:40 - X
+2020-07-16 16:03:05 INFO  ApplicationLogs:40 - XXXXXXXXXXXXXXXXXXXXXX    TEST CASE PASSED:reportPushwithMetaDataXXXXXXXXXXXXXXXXXXXXXX
+2020-07-16 16:03:05 INFO  ApplicationLogs:40 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2020-07-16 16:03:05 INFO  ApplicationLogs:40 - ****************************************************************************************
+2020-07-16 16:03:05 INFO  ApplicationLogs:40 - ****************************************************************************************
+2020-07-16 16:03:05 INFO  ApplicationLogs:40 - X
+2020-07-16 16:03:05 INFO  ApplicationLogs:40 - X
+2020-07-16 16:03:05 INFO  ApplicationLogs:40 - ****************result************************************************************************
+2020-07-16 16:03:05 INFO  ApplicationLogs:40 - $$$$$$$$$$$$$$$$$$$$$       Test Case started: errorPushwithAllMetaData    $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-07-16 16:03:05 INFO  ApplicationLogs:40 - X
+2020-07-16 16:03:05 INFO  ApplicationLogs:40 - X
+2020-07-16 16:03:05 INFO  ApplicationLogs:40 - X
+2020-07-16 16:03:05 INFO  ApplicationLogs:40 - X
+2020-07-16 16:03:05 INFO  ApplicationLogs:40 - ****************result************************************************************************
+2020-07-16 16:03:05 INFO  ApplicationLogs:40 - $$$$$$$$$$$$$$$$$$$$$       Test Case started: errorPushwithAllMetaData    $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-07-16 16:03:05 INFO  ApplicationLogs:40 - X
+2020-07-16 16:03:05 INFO  ApplicationLogs:40 - X
+2020-07-16 16:03:05 INFO  ApplicationLogs:40 - Constructing the request object
+2020-07-16 16:03:05 INFO  ApplicationLogs:40 - Creating request
+2020-07-16 16:03:05 INFO  ApplicationLogs:40 - Executing the requestcom.planSource.benefitSystem.restclient.PostAdapter@67ecf7ed[object=com.planSource.benefitSystem.pojo.MetaDataRequest@71418a4a,BASE URL=http://boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com,endPoint=/notify,contentType=application/json]
+2020-07-16 16:03:05 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com:80
+2020-07-16 16:03:05 DEBUG DefaultClientConnectionOperator:177 - Connecting to boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com:80
+2020-07-16 16:03:06 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-07-16 16:03:06 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-07-16 16:03:06 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2020-07-16 16:03:06 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-07-16 16:03:06 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2020-07-16 16:03:06 DEBUG DefaultClientConnection:274 - Sending request: POST /notify HTTP/1.1
+2020-07-16 16:03:06 DEBUG wire:73 -  >> "POST /notify HTTP/1.1[\r][\n]"
+2020-07-16 16:03:06 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2020-07-16 16:03:06 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-07-16 16:03:06 DEBUG wire:73 -  >> "Content-Length: 117[\r][\n]"
+2020-07-16 16:03:06 DEBUG wire:73 -  >> "Host: boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com[\r][\n]"
+2020-07-16 16:03:06 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-07-16 16:03:06 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)[\r][\n]"
+2020-07-16 16:03:06 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-16 16:03:06 DEBUG wire:73 -  >> "[\r][\n]"
+2020-07-16 16:03:06 DEBUG headers:278 - >> POST /notify HTTP/1.1
+2020-07-16 16:03:06 DEBUG headers:281 - >> Accept: */*
+2020-07-16 16:03:06 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2020-07-16 16:03:06 DEBUG headers:281 - >> Content-Length: 117
+2020-07-16 16:03:06 DEBUG headers:281 - >> Host: boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com
+2020-07-16 16:03:06 DEBUG headers:281 - >> Connection: Keep-Alive
+2020-07-16 16:03:06 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)
+2020-07-16 16:03:06 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2020-07-16 16:03:06 DEBUG wire:87 -  >> "{"guid":"183300","carrierLookup":"guardianinsurance","eventType":"enroll","orgID":62,"sizeOfOrg":228,"anomaly":false}"
+2020-07-16 16:03:07 DEBUG wire:73 -  << "HTTP/1.1 200 [\r][\n]"
+2020-07-16 16:03:07 DEBUG wire:73 -  << "Server: nginx/1.16.1[\r][\n]"
+2020-07-16 16:03:07 DEBUG wire:73 -  << "Date: Thu, 16 Jul 2020 10:34:21 GMT[\r][\n]"
+2020-07-16 16:03:07 DEBUG wire:73 -  << "Content-Type: application/json[\r][\n]"
+2020-07-16 16:03:07 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-07-16 16:03:07 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2020-07-16 16:03:07 DEBUG wire:73 -  << "[\r][\n]"
+2020-07-16 16:03:07 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 
+2020-07-16 16:03:07 DEBUG headers:262 - << HTTP/1.1 200 
+2020-07-16 16:03:07 DEBUG headers:265 - << Server: nginx/1.16.1
+2020-07-16 16:03:07 DEBUG headers:265 - << Date: Thu, 16 Jul 2020 10:34:21 GMT
+2020-07-16 16:03:07 DEBUG headers:265 - << Content-Type: application/json
+2020-07-16 16:03:07 DEBUG headers:265 - << Transfer-Encoding: chunked
+2020-07-16 16:03:07 DEBUG headers:265 - << Connection: keep-alive
+2020-07-16 16:03:07 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2020-07-16 16:03:07 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2020-07-16 16:03:07 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-07-16 16:03:07 DEBUG wire:73 -  << "ac[\r][\n]"
+2020-07-16 16:03:07 DEBUG wire:87 -  << "{"guid":"183300","carrierLookup":"guardianinsurance","eventType":"enroll","orgID":62,"sizeOfOrg":228,"isReceived":true,"message":"Success","isError":false,"isAnomaly":null}"
+2020-07-16 16:03:07 DEBUG wire:73 -  << "[\r][\n]"
+2020-07-16 16:03:07 DEBUG wire:73 -  << "0[\r][\n]"
+2020-07-16 16:03:07 DEBUG wire:73 -  << "[\r][\n]"
+2020-07-16 16:03:07 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4544ab46
+2020-07-16 16:03:07 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2020-07-16 16:03:07 INFO  ApplicationLogs:40 - Verifying the response code
+2020-07-16 16:03:07 INFO  ApplicationLogs:40 - Verifying that the messages from the Error queue has been consumed 
+2020-07-16 16:03:07 INFO  ApplicationLogs:40 - TO ensure that the batch process has been run atleast once
+2020-07-16 16:09:07 INFO  ApplicationLogs:40 - Executing the Get request from the Error end point
+2020-07-16 16:09:07 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com:80
+2020-07-16 16:09:07 DEBUG DefaultClientConnectionOperator:177 - Connecting to boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com:80
+2020-07-16 16:09:07 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-07-16 16:09:07 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-07-16 16:09:07 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2020-07-16 16:09:07 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-07-16 16:09:07 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2020-07-16 16:09:07 DEBUG DefaultClientConnection:274 - Sending request: GET /error HTTP/1.1
+2020-07-16 16:09:07 DEBUG wire:73 -  >> "GET /error HTTP/1.1[\r][\n]"
+2020-07-16 16:09:07 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-07-16 16:09:07 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2020-07-16 16:09:07 DEBUG wire:73 -  >> "Host: boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com[\r][\n]"
+2020-07-16 16:09:07 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-07-16 16:09:07 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)[\r][\n]"
+2020-07-16 16:09:07 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-16 16:09:07 DEBUG wire:73 -  >> "[\r][\n]"
+2020-07-16 16:09:07 DEBUG headers:278 - >> GET /error HTTP/1.1
+2020-07-16 16:09:07 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2020-07-16 16:09:07 DEBUG headers:281 - >> Accept: */*
+2020-07-16 16:09:07 DEBUG headers:281 - >> Host: boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com
+2020-07-16 16:09:07 DEBUG headers:281 - >> Connection: Keep-Alive
+2020-07-16 16:09:07 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)
+2020-07-16 16:09:07 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2020-07-16 16:09:08 DEBUG wire:73 -  << "HTTP/1.1 200 [\r][\n]"
+2020-07-16 16:09:08 DEBUG wire:73 -  << "Server: nginx/1.16.1[\r][\n]"
+2020-07-16 16:09:08 DEBUG wire:73 -  << "Date: Thu, 16 Jul 2020 10:40:22 GMT[\r][\n]"
+2020-07-16 16:09:08 DEBUG wire:73 -  << "Content-Type: text/plain;charset=UTF-8[\r][\n]"
+2020-07-16 16:09:08 DEBUG wire:73 -  << "Content-Length: 4[\r][\n]"
+2020-07-16 16:09:08 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2020-07-16 16:09:08 DEBUG wire:73 -  << "[\r][\n]"
+2020-07-16 16:09:08 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 
+2020-07-16 16:09:08 DEBUG headers:262 - << HTTP/1.1 200 
+2020-07-16 16:09:08 DEBUG headers:265 - << Server: nginx/1.16.1
+2020-07-16 16:09:08 DEBUG headers:265 - << Date: Thu, 16 Jul 2020 10:40:22 GMT
+2020-07-16 16:09:08 DEBUG headers:265 - << Content-Type: text/plain;charset=UTF-8
+2020-07-16 16:09:08 DEBUG headers:265 - << Content-Length: 4
+2020-07-16 16:09:08 DEBUG headers:265 - << Connection: keep-alive
+2020-07-16 16:09:08 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2020-07-16 16:09:08 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: text/plain;charset=UTF-8
+2020-07-16 16:09:08 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-07-16 16:09:08 DEBUG wire:87 -  << "null"
+2020-07-16 16:09:08 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@73958426
+2020-07-16 16:09:08 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2020-07-16 16:09:08 INFO  ApplicationLogs:40 - Getting the messages from the report queue
+2020-07-16 16:09:08 INFO  ApplicationLogs:40 - Verifying that all messages has been pushed from report queue
+2020-07-16 16:09:08 INFO  ApplicationLogs:40 - X
+2020-07-16 16:09:08 INFO  ApplicationLogs:40 - X
+2020-07-16 16:09:08 INFO  ApplicationLogs:40 - XXXXXXXXXXXXXXXXXXXXXX    TEST CASE FAILED:errorPushwithAllMetaData    XXXXXXXXXXXXXXXXXXXXXX
+2020-07-16 16:09:08 INFO  ApplicationLogs:40 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2020-07-16 16:09:08 INFO  ApplicationLogs:40 - ****************************************************************************************
+2020-07-16 16:09:08 INFO  ApplicationLogs:40 - ****************************************************************************************
+2020-07-16 16:09:08 INFO  ApplicationLogs:40 - X
+2020-07-16 16:09:08 INFO  ApplicationLogs:40 - X
+2020-07-16 16:09:08 INFO  ApplicationLogs:40 - XXXXXXXXXXXXXXXXXXXXXX    TEST CASE FAILED:errorPushwithAllMetaData    XXXXXXXXXXXXXXXXXXXXXX
+2020-07-16 16:09:08 INFO  ApplicationLogs:40 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2020-07-16 16:09:08 INFO  ApplicationLogs:40 - ****************************************************************************************
+2020-07-16 16:09:08 INFO  ApplicationLogs:40 - ****************************************************************************************
+2020-07-16 16:09:08 INFO  ApplicationLogs:40 - X
+2020-07-16 16:09:08 INFO  ApplicationLogs:40 - X
+2020-07-16 16:09:08 INFO  ApplicationLogs:40 - ****************result************************************************************************
+2020-07-16 16:09:08 INFO  ApplicationLogs:40 - $$$$$$$$$$$$$$$$$$$$$       Test Case started: anomalyPushwithAllMetaData    $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-07-16 16:09:08 INFO  ApplicationLogs:40 - X
+2020-07-16 16:09:08 INFO  ApplicationLogs:40 - X
+2020-07-16 16:09:08 INFO  ApplicationLogs:40 - X
+2020-07-16 16:09:08 INFO  ApplicationLogs:40 - X
+2020-07-16 16:09:08 INFO  ApplicationLogs:40 - ****************result************************************************************************
+2020-07-16 16:09:08 INFO  ApplicationLogs:40 - $$$$$$$$$$$$$$$$$$$$$       Test Case started: anomalyPushwithAllMetaData    $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-07-16 16:09:08 INFO  ApplicationLogs:40 - X
+2020-07-16 16:09:08 INFO  ApplicationLogs:40 - X
+2020-07-16 16:09:08 INFO  ApplicationLogs:40 - Constructing the first request object
+2020-07-16 16:09:08 INFO  ApplicationLogs:40 - Creating first request
+2020-07-16 16:09:08 INFO  ApplicationLogs:40 - Executing the first requestcom.planSource.benefitSystem.restclient.PostAdapter@229749f0[object=com.planSource.benefitSystem.pojo.MetaDataRequest@771cbd13,BASE URL=http://boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com,endPoint=/notify,contentType=application/json]
+2020-07-16 16:09:08 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com:80
+2020-07-16 16:09:08 DEBUG DefaultClientConnectionOperator:177 - Connecting to boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com:80
+2020-07-16 16:09:08 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-07-16 16:09:08 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-07-16 16:09:08 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2020-07-16 16:09:08 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-07-16 16:09:08 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2020-07-16 16:09:08 DEBUG DefaultClientConnection:274 - Sending request: POST /notify HTTP/1.1
+2020-07-16 16:09:08 DEBUG wire:73 -  >> "POST /notify HTTP/1.1[\r][\n]"
+2020-07-16 16:09:08 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2020-07-16 16:09:08 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-07-16 16:09:08 DEBUG wire:73 -  >> "Content-Length: 115[\r][\n]"
+2020-07-16 16:09:08 DEBUG wire:73 -  >> "Host: boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com[\r][\n]"
+2020-07-16 16:09:08 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-07-16 16:09:08 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)[\r][\n]"
+2020-07-16 16:09:08 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-16 16:09:08 DEBUG wire:73 -  >> "[\r][\n]"
+2020-07-16 16:09:08 DEBUG headers:278 - >> POST /notify HTTP/1.1
+2020-07-16 16:09:08 DEBUG headers:281 - >> Accept: */*
+2020-07-16 16:09:08 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2020-07-16 16:09:08 DEBUG headers:281 - >> Content-Length: 115
+2020-07-16 16:09:08 DEBUG headers:281 - >> Host: boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com
+2020-07-16 16:09:08 DEBUG headers:281 - >> Connection: Keep-Alive
+2020-07-16 16:09:08 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)
+2020-07-16 16:09:08 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2020-07-16 16:09:08 DEBUG wire:87 -  >> "{"guid":"184836","carrierLookup":"guardianinsurance","eventType":"term","orgID":663,"sizeOfOrg":345,"anomaly":true}"
+2020-07-16 16:09:09 DEBUG wire:73 -  << "HTTP/1.1 200 [\r][\n]"
+2020-07-16 16:09:09 DEBUG wire:73 -  << "Server: nginx/1.16.1[\r][\n]"
+2020-07-16 16:09:09 DEBUG wire:73 -  << "Date: Thu, 16 Jul 2020 10:40:23 GMT[\r][\n]"
+2020-07-16 16:09:09 DEBUG wire:73 -  << "Content-Type: application/json[\r][\n]"
+2020-07-16 16:09:09 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-07-16 16:09:09 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2020-07-16 16:09:09 DEBUG wire:73 -  << "[\r][\n]"
+2020-07-16 16:09:09 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 
+2020-07-16 16:09:09 DEBUG headers:262 - << HTTP/1.1 200 
+2020-07-16 16:09:09 DEBUG headers:265 - << Server: nginx/1.16.1
+2020-07-16 16:09:09 DEBUG headers:265 - << Date: Thu, 16 Jul 2020 10:40:23 GMT
+2020-07-16 16:09:09 DEBUG headers:265 - << Content-Type: application/json
+2020-07-16 16:09:09 DEBUG headers:265 - << Transfer-Encoding: chunked
+2020-07-16 16:09:09 DEBUG headers:265 - << Connection: keep-alive
+2020-07-16 16:09:09 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2020-07-16 16:09:09 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2020-07-16 16:09:09 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-07-16 16:09:09 DEBUG wire:73 -  << "ab[\r][\n]"
+2020-07-16 16:09:09 DEBUG wire:87 -  << "{"guid":"184836","carrierLookup":"guardianinsurance","eventType":"term","orgID":663,"sizeOfOrg":345,"isReceived":true,"message":"Success","isError":false,"isAnomaly":null}"
+2020-07-16 16:09:09 DEBUG wire:73 -  << "[\r][\n]"
+2020-07-16 16:09:09 DEBUG wire:73 -  << "0[\r][\n]"
+2020-07-16 16:09:09 DEBUG wire:73 -  << "[\r][\n]"
+2020-07-16 16:09:09 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@26888c31
+2020-07-16 16:09:09 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2020-07-16 16:09:09 INFO  ApplicationLogs:40 - Verifying the first response code
+2020-07-16 16:09:09 INFO  ApplicationLogs:40 - Constructing the second request object
+2020-07-16 16:09:09 INFO  ApplicationLogs:40 - Creating second request
+2020-07-16 16:09:09 INFO  ApplicationLogs:40 - Executing the second requestcom.planSource.benefitSystem.restclient.PostAdapter@e60c5a[object=com.planSource.benefitSystem.pojo.MetaDataRequest@7a021f49,BASE URL=http://boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com,endPoint=/notify,contentType=application/json]
+2020-07-16 16:09:09 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com:80
+2020-07-16 16:09:09 DEBUG DefaultClientConnectionOperator:177 - Connecting to boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com:80
+2020-07-16 16:09:09 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-07-16 16:09:09 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-07-16 16:09:09 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2020-07-16 16:09:09 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-07-16 16:09:09 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2020-07-16 16:09:09 DEBUG DefaultClientConnection:274 - Sending request: POST /notify HTTP/1.1
+2020-07-16 16:09:09 DEBUG wire:73 -  >> "POST /notify HTTP/1.1[\r][\n]"
+2020-07-16 16:09:09 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2020-07-16 16:09:09 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-07-16 16:09:09 DEBUG wire:73 -  >> "Content-Length: 115[\r][\n]"
+2020-07-16 16:09:09 DEBUG wire:73 -  >> "Host: boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com[\r][\n]"
+2020-07-16 16:09:09 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-07-16 16:09:09 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)[\r][\n]"
+2020-07-16 16:09:09 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-16 16:09:09 DEBUG wire:73 -  >> "[\r][\n]"
+2020-07-16 16:09:09 DEBUG headers:278 - >> POST /notify HTTP/1.1
+2020-07-16 16:09:09 DEBUG headers:281 - >> Accept: */*
+2020-07-16 16:09:09 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2020-07-16 16:09:09 DEBUG headers:281 - >> Content-Length: 115
+2020-07-16 16:09:09 DEBUG headers:281 - >> Host: boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com
+2020-07-16 16:09:09 DEBUG headers:281 - >> Connection: Keep-Alive
+2020-07-16 16:09:09 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)
+2020-07-16 16:09:09 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2020-07-16 16:09:09 DEBUG wire:87 -  >> "{"guid":"184836","carrierLookup":"guardianinsurance","eventType":"term","orgID":663,"sizeOfOrg":345,"anomaly":true}"
+2020-07-16 16:09:10 DEBUG wire:73 -  << "HTTP/1.1 200 [\r][\n]"
+2020-07-16 16:09:10 DEBUG wire:73 -  << "Server: nginx/1.16.1[\r][\n]"
+2020-07-16 16:09:10 DEBUG wire:73 -  << "Date: Thu, 16 Jul 2020 10:40:24 GMT[\r][\n]"
+2020-07-16 16:09:10 DEBUG wire:73 -  << "Content-Type: application/json[\r][\n]"
+2020-07-16 16:09:10 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-07-16 16:09:10 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2020-07-16 16:09:10 DEBUG wire:73 -  << "[\r][\n]"
+2020-07-16 16:09:10 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 
+2020-07-16 16:09:10 DEBUG headers:262 - << HTTP/1.1 200 
+2020-07-16 16:09:10 DEBUG headers:265 - << Server: nginx/1.16.1
+2020-07-16 16:09:10 DEBUG headers:265 - << Date: Thu, 16 Jul 2020 10:40:24 GMT
+2020-07-16 16:09:10 DEBUG headers:265 - << Content-Type: application/json
+2020-07-16 16:09:10 DEBUG headers:265 - << Transfer-Encoding: chunked
+2020-07-16 16:09:10 DEBUG headers:265 - << Connection: keep-alive
+2020-07-16 16:09:10 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2020-07-16 16:09:10 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2020-07-16 16:09:10 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-07-16 16:09:10 DEBUG wire:73 -  << "ab[\r][\n]"
+2020-07-16 16:09:10 DEBUG wire:87 -  << "{"guid":"184836","carrierLookup":"guardianinsurance","eventType":"term","orgID":663,"sizeOfOrg":345,"isReceived":true,"message":"Success","isError":false,"isAnomaly":null}"
+2020-07-16 16:09:10 DEBUG wire:73 -  << "[\r][\n]"
+2020-07-16 16:09:10 DEBUG wire:73 -  << "0[\r][\n]"
+2020-07-16 16:09:10 DEBUG wire:73 -  << "[\r][\n]"
+2020-07-16 16:09:10 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@669580e2
+2020-07-16 16:09:10 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2020-07-16 16:09:10 INFO  ApplicationLogs:40 - Verifying the first response code
+2020-07-16 16:09:10 INFO  ApplicationLogs:40 - Verifying that the messages from the Anomaly bucket has been consumed 
+2020-07-16 16:09:10 INFO  ApplicationLogs:40 - TO ensure that the batch process has been run atleast once
+2020-07-16 16:17:10 INFO  ApplicationLogs:40 - Executing the Get request from the Anomaly end point
+2020-07-16 16:17:10 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com:80
+2020-07-16 16:17:10 DEBUG DefaultClientConnectionOperator:177 - Connecting to boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com:80
+2020-07-16 16:17:11 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-07-16 16:17:11 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-07-16 16:17:11 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2020-07-16 16:17:11 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-07-16 16:17:11 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2020-07-16 16:17:11 DEBUG DefaultClientConnection:274 - Sending request: GET /anomaly HTTP/1.1
+2020-07-16 16:17:11 DEBUG wire:73 -  >> "GET /anomaly HTTP/1.1[\r][\n]"
+2020-07-16 16:17:11 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-07-16 16:17:11 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2020-07-16 16:17:11 DEBUG wire:73 -  >> "Host: boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com[\r][\n]"
+2020-07-16 16:17:11 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-07-16 16:17:11 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)[\r][\n]"
+2020-07-16 16:17:11 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-16 16:17:11 DEBUG wire:73 -  >> "[\r][\n]"
+2020-07-16 16:17:11 DEBUG headers:278 - >> GET /anomaly HTTP/1.1
+2020-07-16 16:17:11 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2020-07-16 16:17:11 DEBUG headers:281 - >> Accept: */*
+2020-07-16 16:17:11 DEBUG headers:281 - >> Host: boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com
+2020-07-16 16:17:11 DEBUG headers:281 - >> Connection: Keep-Alive
+2020-07-16 16:17:11 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)
+2020-07-16 16:17:11 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2020-07-16 16:17:18 DEBUG wire:73 -  << "HTTP/1.1 200 [\r][\n]"
+2020-07-16 16:17:18 DEBUG wire:73 -  << "Server: nginx/1.16.1[\r][\n]"
+2020-07-16 16:17:18 DEBUG wire:73 -  << "Date: Thu, 16 Jul 2020 10:48:32 GMT[\r][\n]"
+2020-07-16 16:17:18 DEBUG wire:73 -  << "Content-Type: text/plain;charset=UTF-8[\r][\n]"
+2020-07-16 16:17:18 DEBUG wire:73 -  << "Content-Length: 2[\r][\n]"
+2020-07-16 16:17:18 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2020-07-16 16:17:18 DEBUG wire:73 -  << "[\r][\n]"
+2020-07-16 16:17:18 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 
+2020-07-16 16:17:18 DEBUG headers:262 - << HTTP/1.1 200 
+2020-07-16 16:17:18 DEBUG headers:265 - << Server: nginx/1.16.1
+2020-07-16 16:17:18 DEBUG headers:265 - << Date: Thu, 16 Jul 2020 10:48:32 GMT
+2020-07-16 16:17:18 DEBUG headers:265 - << Content-Type: text/plain;charset=UTF-8
+2020-07-16 16:17:18 DEBUG headers:265 - << Content-Length: 2
+2020-07-16 16:17:18 DEBUG headers:265 - << Connection: keep-alive
+2020-07-16 16:17:18 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2020-07-16 16:17:18 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: text/plain;charset=UTF-8
+2020-07-16 16:17:18 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-07-16 16:17:18 DEBUG wire:87 -  << "{}"
+2020-07-16 16:17:18 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7614378d
+2020-07-16 16:17:18 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2020-07-16 16:17:18 INFO  ApplicationLogs:40 - Getting the messages from the Anomaly bucket
+2020-07-16 16:17:18 INFO  ApplicationLogs:40 - Verifying that all messages has been pushed from Anomaly bucket
+2020-07-16 16:17:18 INFO  ApplicationLogs:40 - X
+2020-07-16 16:17:18 INFO  ApplicationLogs:40 - X
+2020-07-16 16:17:18 INFO  ApplicationLogs:40 - XXXXXXXXXXXXXXXXXXXXXX    TEST CASE PASSED:anomalyPushwithAllMetaDataXXXXXXXXXXXXXXXXXXXXXX
+2020-07-16 16:17:18 INFO  ApplicationLogs:40 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2020-07-16 16:17:18 INFO  ApplicationLogs:40 - ****************************************************************************************
+2020-07-16 16:17:18 INFO  ApplicationLogs:40 - ****************************************************************************************
+2020-07-16 16:17:18 INFO  ApplicationLogs:40 - X
+2020-07-16 16:17:18 INFO  ApplicationLogs:40 - X
+2020-07-16 16:17:18 INFO  ApplicationLogs:40 - XXXXXXXXXXXXXXXXXXXXXX    TEST CASE PASSED:anomalyPushwithAllMetaDataXXXXXXXXXXXXXXXXXXXXXX
+2020-07-16 16:17:18 INFO  ApplicationLogs:40 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2020-07-16 16:17:18 INFO  ApplicationLogs:40 - ****************************************************************************************
+2020-07-16 16:17:18 INFO  ApplicationLogs:40 - ****************************************************************************************
+2020-07-16 16:17:18 INFO  ApplicationLogs:40 - Number of Passed Tests: 2
+2020-07-16 16:17:18 INFO  ApplicationLogs:40 - Failed Tests: [Test_007_ErrorbatchPushTest.errorPushwithAllMetaData()[pri:20, instance:com.planSource.benefitSystem.BatchPushTests.Test_007_ErrorbatchPushTest@396ef8b2]]
+2020-07-16 16:17:18 INFO  ApplicationLogs:40 - Skipped Tests: []
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:18 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:18 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:18 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:18 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:18 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:18 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:18 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:18 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+2020-07-16 16:17:18 INFO  ApplicationLogs:40 - Number of Passed Tests: 2
+2020-07-16 16:17:18 INFO  ApplicationLogs:40 - Failed Tests: [Test_007_ErrorbatchPushTest.errorPushwithAllMetaData()[pri:20, instance:com.planSource.benefitSystem.BatchPushTests.Test_007_ErrorbatchPushTest@396ef8b2]]
+2020-07-16 16:17:18 INFO  ApplicationLogs:40 - Skipped Tests: []
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:18 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:18 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:18 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:18 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:18 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:18 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:18 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:18 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+2020-07-16 16:17:18 DEBUG cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2020-07-16 16:17:18 DEBUG cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2020-07-16 16:17:18 DEBUG cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+2020-07-16 16:17:19 INFO  ApplicationLogs:40 - X
+2020-07-16 16:17:19 INFO  ApplicationLogs:40 - X
+2020-07-16 16:17:19 INFO  ApplicationLogs:40 - ****************result************************************************************************
+2020-07-16 16:17:19 INFO  ApplicationLogs:40 - $$$$$$$$$$$$$$$$$$$$$       Test Case started: verifyGetFAPEndPoint    $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-07-16 16:17:19 INFO  ApplicationLogs:40 - X
+2020-07-16 16:17:19 INFO  ApplicationLogs:40 - X
+2020-07-16 16:17:19 INFO  ApplicationLogs:40 - Creating request object
+2020-07-16 16:17:19 INFO  ApplicationLogs:40 - Executing the Get request from FAP Get end point
+2020-07-16 16:17:19 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com:80
+2020-07-16 16:17:19 DEBUG DefaultClientConnectionOperator:177 - Connecting to boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com:80
+2020-07-16 16:17:19 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-07-16 16:17:19 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-07-16 16:17:19 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2020-07-16 16:17:19 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-07-16 16:17:19 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2020-07-16 16:17:19 DEBUG DefaultClientConnection:274 - Sending request: GET /provider?plan_type=asdasd&office_name=asdasd&specialties=sdas&distance=1232&plan_code=aasd&provider_name=asasd&accepting_new=true&in_network=false&zip_code=12312&carrier_code=234 HTTP/1.1
+2020-07-16 16:17:19 DEBUG wire:73 -  >> "GET /provider?plan_type=asdasd&office_name=asdasd&specialties=sdas&distance=1232&plan_code=aasd&provider_name=asasd&accepting_new=true&in_network=false&zip_code=12312&carrier_code=234 HTTP/1.1[\r][\n]"
+2020-07-16 16:17:19 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-07-16 16:17:19 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2020-07-16 16:17:19 DEBUG wire:73 -  >> "Host: boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com[\r][\n]"
+2020-07-16 16:17:19 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-07-16 16:17:19 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)[\r][\n]"
+2020-07-16 16:17:19 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-16 16:17:19 DEBUG wire:73 -  >> "[\r][\n]"
+2020-07-16 16:17:19 DEBUG headers:278 - >> GET /provider?plan_type=asdasd&office_name=asdasd&specialties=sdas&distance=1232&plan_code=aasd&provider_name=asasd&accepting_new=true&in_network=false&zip_code=12312&carrier_code=234 HTTP/1.1
+2020-07-16 16:17:19 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2020-07-16 16:17:19 DEBUG headers:281 - >> Accept: */*
+2020-07-16 16:17:19 DEBUG headers:281 - >> Host: boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com
+2020-07-16 16:17:19 DEBUG headers:281 - >> Connection: Keep-Alive
+2020-07-16 16:17:19 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)
+2020-07-16 16:17:19 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2020-07-16 16:17:19 DEBUG wire:73 -  << "HTTP/1.1 200 [\r][\n]"
+2020-07-16 16:17:19 DEBUG wire:73 -  << "Server: nginx/1.16.1[\r][\n]"
+2020-07-16 16:17:19 DEBUG wire:73 -  << "Date: Thu, 16 Jul 2020 10:48:34 GMT[\r][\n]"
+2020-07-16 16:17:19 DEBUG wire:73 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2020-07-16 16:17:19 DEBUG wire:73 -  << "Content-Length: 0[\r][\n]"
+2020-07-16 16:17:19 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2020-07-16 16:17:19 DEBUG wire:73 -  << "[\r][\n]"
+2020-07-16 16:17:19 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 
+2020-07-16 16:17:19 DEBUG headers:262 - << HTTP/1.1 200 
+2020-07-16 16:17:19 DEBUG headers:265 - << Server: nginx/1.16.1
+2020-07-16 16:17:19 DEBUG headers:265 - << Date: Thu, 16 Jul 2020 10:48:34 GMT
+2020-07-16 16:17:19 DEBUG headers:265 - << Content-Type: application/json;charset=UTF-8
+2020-07-16 16:17:19 DEBUG headers:265 - << Content-Length: 0
+2020-07-16 16:17:19 DEBUG headers:265 - << Connection: keep-alive
+2020-07-16 16:17:19 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2020-07-16 16:17:19 INFO  ApplicationLogs:40 - Verifying the  response code
+2020-07-16 16:17:19 INFO  ApplicationLogs:40 - X
+2020-07-16 16:17:19 INFO  ApplicationLogs:40 - X
+2020-07-16 16:17:19 INFO  ApplicationLogs:40 - XXXXXXXXXXXXXXXXXXXXXX    TEST CASE PASSED:verifyGetFAPEndPointXXXXXXXXXXXXXXXXXXXXXX
+2020-07-16 16:17:19 INFO  ApplicationLogs:40 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2020-07-16 16:17:19 INFO  ApplicationLogs:40 - ****************************************************************************************
+2020-07-16 16:17:19 INFO  ApplicationLogs:40 - ****************************************************************************************
+2020-07-16 16:17:19 INFO  ApplicationLogs:40 - X
+2020-07-16 16:17:19 INFO  ApplicationLogs:40 - X
+2020-07-16 16:17:19 INFO  ApplicationLogs:40 - ****************result************************************************************************
+2020-07-16 16:17:19 INFO  ApplicationLogs:40 - $$$$$$$$$$$$$$$$$$$$$       Test Case started: verifyGetFAPEndPointMandatoryFields    $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-07-16 16:17:19 INFO  ApplicationLogs:40 - X
+2020-07-16 16:17:19 INFO  ApplicationLogs:40 - X
+2020-07-16 16:17:19 INFO  ApplicationLogs:40 - Creating request object
+2020-07-16 16:17:19 INFO  ApplicationLogs:40 - Executing the Get request 
+2020-07-16 16:17:19 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com:80
+2020-07-16 16:17:19 DEBUG DefaultClientConnectionOperator:177 - Connecting to boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com:80
+2020-07-16 16:17:20 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-07-16 16:17:20 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-07-16 16:17:20 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2020-07-16 16:17:20 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-07-16 16:17:20 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2020-07-16 16:17:20 DEBUG DefaultClientConnection:274 - Sending request: GET /provider?plan_type=asdasd&office_name=asdasd&specialties=sdas&distance=1232&plan_code=aasd&provider_name=asasd&accepting_new=true&in_network=false&zip_code=12312&carrier_code= HTTP/1.1
+2020-07-16 16:17:20 DEBUG wire:73 -  >> "GET /provider?plan_type=asdasd&office_name=asdasd&specialties=sdas&distance=1232&plan_code=aasd&provider_name=asasd&accepting_new=true&in_network=false&zip_code=12312&carrier_code= HTTP/1.1[\r][\n]"
+2020-07-16 16:17:20 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-07-16 16:17:20 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2020-07-16 16:17:20 DEBUG wire:73 -  >> "Host: boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com[\r][\n]"
+2020-07-16 16:17:20 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-07-16 16:17:20 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)[\r][\n]"
+2020-07-16 16:17:20 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-16 16:17:20 DEBUG wire:73 -  >> "[\r][\n]"
+2020-07-16 16:17:20 DEBUG headers:278 - >> GET /provider?plan_type=asdasd&office_name=asdasd&specialties=sdas&distance=1232&plan_code=aasd&provider_name=asasd&accepting_new=true&in_network=false&zip_code=12312&carrier_code= HTTP/1.1
+2020-07-16 16:17:20 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2020-07-16 16:17:20 DEBUG headers:281 - >> Accept: */*
+2020-07-16 16:17:20 DEBUG headers:281 - >> Host: boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com
+2020-07-16 16:17:20 DEBUG headers:281 - >> Connection: Keep-Alive
+2020-07-16 16:17:20 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)
+2020-07-16 16:17:20 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2020-07-16 16:17:20 DEBUG wire:73 -  << "HTTP/1.1 400 [\r][\n]"
+2020-07-16 16:17:20 DEBUG wire:73 -  << "Server: nginx/1.16.1[\r][\n]"
+2020-07-16 16:17:20 DEBUG wire:73 -  << "Date: Thu, 16 Jul 2020 10:48:35 GMT[\r][\n]"
+2020-07-16 16:17:20 DEBUG wire:73 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2020-07-16 16:17:20 DEBUG wire:73 -  << "Content-Length: 91[\r][\n]"
+2020-07-16 16:17:20 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2020-07-16 16:17:20 DEBUG wire:73 -  << "[\r][\n]"
+2020-07-16 16:17:20 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 400 
+2020-07-16 16:17:20 DEBUG headers:262 - << HTTP/1.1 400 
+2020-07-16 16:17:20 DEBUG headers:265 - << Server: nginx/1.16.1
+2020-07-16 16:17:20 DEBUG headers:265 - << Date: Thu, 16 Jul 2020 10:48:35 GMT
+2020-07-16 16:17:20 DEBUG headers:265 - << Content-Type: application/json;charset=UTF-8
+2020-07-16 16:17:20 DEBUG headers:265 - << Content-Length: 91
+2020-07-16 16:17:20 DEBUG headers:265 - << Connection: keep-alive
+2020-07-16 16:17:20 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2020-07-16 16:17:20 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json;charset=UTF-8
+2020-07-16 16:17:20 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-07-16 16:17:20 DEBUG wire:87 -  << "{"status":"Failed","message":"Invalid Request","errors":"Carrier Code should not be empty"}"
+2020-07-16 16:17:20 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@476a2819
+2020-07-16 16:17:20 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2020-07-16 16:17:20 INFO  ApplicationLogs:40 - Verifying the  response code
+2020-07-16 16:17:20 INFO  ApplicationLogs:40 - Verifying the  Error Message
+2020-07-16 16:17:20 INFO  ApplicationLogs:40 - X
+2020-07-16 16:17:20 INFO  ApplicationLogs:40 - X
+2020-07-16 16:17:20 INFO  ApplicationLogs:40 - XXXXXXXXXXXXXXXXXXXXXX    TEST CASE PASSED:verifyGetFAPEndPointMandatoryFieldsXXXXXXXXXXXXXXXXXXXXXX
+2020-07-16 16:17:20 INFO  ApplicationLogs:40 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2020-07-16 16:17:20 INFO  ApplicationLogs:40 - ****************************************************************************************
+2020-07-16 16:17:20 INFO  ApplicationLogs:40 - ****************************************************************************************
+2020-07-16 16:17:20 INFO  ApplicationLogs:40 - X
+2020-07-16 16:17:20 INFO  ApplicationLogs:40 - X
+2020-07-16 16:17:20 INFO  ApplicationLogs:40 - ****************result************************************************************************
+2020-07-16 16:17:20 INFO  ApplicationLogs:40 - $$$$$$$$$$$$$$$$$$$$$       Test Case started: verifyGetFAPEndPointAllFieldsValidation    $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-07-16 16:17:20 INFO  ApplicationLogs:40 - X
+2020-07-16 16:17:20 INFO  ApplicationLogs:40 - X
+2020-07-16 16:17:20 INFO  ApplicationLogs:40 - Creating request object
+2020-07-16 16:17:20 INFO  ApplicationLogs:40 - Executing the Get request 
+2020-07-16 16:17:20 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com:80
+2020-07-16 16:17:20 DEBUG DefaultClientConnectionOperator:177 - Connecting to boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com:80
+2020-07-16 16:17:20 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-07-16 16:17:20 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-07-16 16:17:20 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2020-07-16 16:17:20 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-07-16 16:17:20 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2020-07-16 16:17:20 DEBUG DefaultClientConnection:274 - Sending request: GET /provider?plan_type=asdasd&office_name=asdasd&specialties=sdas&distance=1232&plan_code=aasd&provider_name=asasd&accepting_new=true&in_network=false&zip_code=12312&carrier_code=234 HTTP/1.1
+2020-07-16 16:17:20 DEBUG wire:73 -  >> "GET /provider?plan_type=asdasd&office_name=asdasd&specialties=sdas&distance=1232&plan_code=aasd&provider_name=asasd&accepting_new=true&in_network=false&zip_code=12312&carrier_code=234 HTTP/1.1[\r][\n]"
+2020-07-16 16:17:20 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-07-16 16:17:20 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2020-07-16 16:17:20 DEBUG wire:73 -  >> "Host: boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com[\r][\n]"
+2020-07-16 16:17:20 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-07-16 16:17:20 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)[\r][\n]"
+2020-07-16 16:17:20 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-16 16:17:20 DEBUG wire:73 -  >> "[\r][\n]"
+2020-07-16 16:17:20 DEBUG headers:278 - >> GET /provider?plan_type=asdasd&office_name=asdasd&specialties=sdas&distance=1232&plan_code=aasd&provider_name=asasd&accepting_new=true&in_network=false&zip_code=12312&carrier_code=234 HTTP/1.1
+2020-07-16 16:17:20 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2020-07-16 16:17:20 DEBUG headers:281 - >> Accept: */*
+2020-07-16 16:17:20 DEBUG headers:281 - >> Host: boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com
+2020-07-16 16:17:20 DEBUG headers:281 - >> Connection: Keep-Alive
+2020-07-16 16:17:20 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)
+2020-07-16 16:17:20 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2020-07-16 16:17:21 DEBUG wire:73 -  << "HTTP/1.1 200 [\r][\n]"
+2020-07-16 16:17:21 DEBUG wire:73 -  << "Server: nginx/1.16.1[\r][\n]"
+2020-07-16 16:17:21 DEBUG wire:73 -  << "Date: Thu, 16 Jul 2020 10:48:35 GMT[\r][\n]"
+2020-07-16 16:17:21 DEBUG wire:73 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2020-07-16 16:17:21 DEBUG wire:73 -  << "Content-Length: 0[\r][\n]"
+2020-07-16 16:17:21 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2020-07-16 16:17:21 DEBUG wire:73 -  << "[\r][\n]"
+2020-07-16 16:17:21 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 
+2020-07-16 16:17:21 DEBUG headers:262 - << HTTP/1.1 200 
+2020-07-16 16:17:21 DEBUG headers:265 - << Server: nginx/1.16.1
+2020-07-16 16:17:21 DEBUG headers:265 - << Date: Thu, 16 Jul 2020 10:48:35 GMT
+2020-07-16 16:17:21 DEBUG headers:265 - << Content-Type: application/json;charset=UTF-8
+2020-07-16 16:17:21 DEBUG headers:265 - << Content-Length: 0
+2020-07-16 16:17:21 DEBUG headers:265 - << Connection: keep-alive
+2020-07-16 16:17:21 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2020-07-16 16:17:21 INFO  ApplicationLogs:40 - Verifying the  response code
+2020-07-16 16:17:21 INFO  ApplicationLogs:40 - X
+2020-07-16 16:17:21 INFO  ApplicationLogs:40 - X
+2020-07-16 16:17:21 INFO  ApplicationLogs:40 - XXXXXXXXXXXXXXXXXXXXXX    TEST CASE PASSED:verifyGetFAPEndPointAllFieldsValidationXXXXXXXXXXXXXXXXXXXXXX
+2020-07-16 16:17:21 INFO  ApplicationLogs:40 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2020-07-16 16:17:21 INFO  ApplicationLogs:40 - ****************************************************************************************
+2020-07-16 16:17:21 INFO  ApplicationLogs:40 - ****************************************************************************************
+2020-07-16 16:17:21 INFO  ApplicationLogs:40 - Number of Passed Tests: 3
+2020-07-16 16:17:21 INFO  ApplicationLogs:40 - Failed Tests: []
+2020-07-16 16:17:21 INFO  ApplicationLogs:40 - Skipped Tests: []
+2020-07-16 16:17:21 DEBUG cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found
+2020-07-16 16:17:21 DEBUG cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+2020-07-16 16:17:21 DEBUG cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
+2020-07-16 16:17:21 DEBUG cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+2020-07-16 16:17:21 DEBUG cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+2020-07-16 16:17:21 DEBUG cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+2020-07-16 16:17:21 DEBUG cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2020-07-16 16:17:21 DEBUG cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+2020-07-16 16:17:21 DEBUG cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+2020-07-16 16:17:21 DEBUG cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+2020-07-16 16:17:21 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:21 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:21 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:21 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:21 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:21 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:21 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:21 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:21 DEBUG cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2020-07-16 16:17:21 DEBUG cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+2020-07-16 16:17:21 DEBUG cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2020-07-16 16:17:21 DEBUG cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+2020-07-16 16:17:21 DEBUG cache:45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+2020-07-16 16:17:21 DEBUG cache:45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+2020-07-16 16:17:21 DEBUG cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2020-07-16 16:17:21 DEBUG cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+2020-07-16 16:17:21 DEBUG cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2020-07-16 16:17:21 DEBUG cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+2020-07-16 16:17:21 DEBUG cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2020-07-16 16:17:21 DEBUG cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+2020-07-16 16:17:21 DEBUG cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found
+2020-07-16 16:17:21 DEBUG cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+2020-07-16 16:17:21 DEBUG cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
+2020-07-16 16:17:21 DEBUG cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+2020-07-16 16:17:21 DEBUG cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+2020-07-16 16:17:21 DEBUG cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+2020-07-16 16:17:21 DEBUG cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2020-07-16 16:17:21 DEBUG cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+2020-07-16 16:17:21 DEBUG cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+2020-07-16 16:17:21 DEBUG cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+2020-07-16 16:17:21 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:21 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:21 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:21 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:21 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:21 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:21 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:21 DEBUG cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-16 16:17:21 DEBUG cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2020-07-16 16:17:21 DEBUG cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+2020-07-16 16:17:21 DEBUG cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2020-07-16 16:17:21 DEBUG cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+2020-07-16 16:17:21 DEBUG cache:45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+2020-07-16 16:17:21 DEBUG cache:45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+2020-07-16 16:17:21 DEBUG cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2020-07-16 16:17:21 DEBUG cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+2020-07-16 16:17:21 DEBUG cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2020-07-16 16:17:21 DEBUG cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+2020-07-16 16:17:21 DEBUG cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2020-07-16 16:17:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2020-07-16 16:17:21 DEBUG cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/subhramanyu.das/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"

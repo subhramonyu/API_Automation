@@ -1,0 +1,158 @@
+16/07/2020 15:57:01 ApplicationLogs X
+16/07/2020 15:57:01 ApplicationLogs X
+16/07/2020 15:57:01 ApplicationLogs ****************result************************************************************************
+16/07/2020 15:57:01 ApplicationLogs $$$$$$$$$$$$$$$$$$$$$       Test Case started: reportPushwithMetaData    $$$$$$$$$$$$$$$$$$$$$$$$$
+16/07/2020 15:57:01 ApplicationLogs X
+16/07/2020 15:57:01 ApplicationLogs X
+16/07/2020 15:57:01 ApplicationLogs X
+16/07/2020 15:57:01 ApplicationLogs X
+16/07/2020 15:57:01 ApplicationLogs ****************result************************************************************************
+16/07/2020 15:57:01 ApplicationLogs $$$$$$$$$$$$$$$$$$$$$       Test Case started: reportPushwithMetaData    $$$$$$$$$$$$$$$$$$$$$$$$$
+16/07/2020 15:57:01 ApplicationLogs X
+16/07/2020 15:57:01 ApplicationLogs X
+16/07/2020 15:57:01 ApplicationLogs Constructing the request object
+16/07/2020 15:57:01 ApplicationLogs Creating request
+16/07/2020 15:57:01 ApplicationLogs Executing the requestcom.planSource.benefitSystem.restclient.PostAdapter@39ee94de[object=com.planSource.benefitSystem.pojo.MetaDataRequest@2fe74516,BASE URL=http://boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com,endPoint=/notify,contentType=application/json]
+16/07/2020 15:57:04 ApplicationLogs Verifying the response code
+16/07/2020 15:57:04 ApplicationLogs Verifying that the messages from the report queue has been consumed 
+16/07/2020 15:57:04 ApplicationLogs TO ensure that the batch process has been run atleast once
+16/07/2020 16:03:04 ApplicationLogs Executing the Request
+16/07/2020 16:03:05 ApplicationLogs Getting the messages from the report queue
+16/07/2020 16:03:05 ApplicationLogs Verifying that all messages has been pushed from report queue
+16/07/2020 16:03:05 ApplicationLogs X
+16/07/2020 16:03:05 ApplicationLogs X
+16/07/2020 16:03:05 ApplicationLogs XXXXXXXXXXXXXXXXXXXXXX    TEST CASE PASSED:reportPushwithMetaDataXXXXXXXXXXXXXXXXXXXXXX
+16/07/2020 16:03:05 ApplicationLogs XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+16/07/2020 16:03:05 ApplicationLogs ****************************************************************************************
+16/07/2020 16:03:05 ApplicationLogs ****************************************************************************************
+16/07/2020 16:03:05 ApplicationLogs X
+16/07/2020 16:03:05 ApplicationLogs X
+16/07/2020 16:03:05 ApplicationLogs XXXXXXXXXXXXXXXXXXXXXX    TEST CASE PASSED:reportPushwithMetaDataXXXXXXXXXXXXXXXXXXXXXX
+16/07/2020 16:03:05 ApplicationLogs XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+16/07/2020 16:03:05 ApplicationLogs ****************************************************************************************
+16/07/2020 16:03:05 ApplicationLogs ****************************************************************************************
+16/07/2020 16:03:05 ApplicationLogs X
+16/07/2020 16:03:05 ApplicationLogs X
+16/07/2020 16:03:05 ApplicationLogs ****************result************************************************************************
+16/07/2020 16:03:05 ApplicationLogs $$$$$$$$$$$$$$$$$$$$$       Test Case started: errorPushwithAllMetaData    $$$$$$$$$$$$$$$$$$$$$$$$$
+16/07/2020 16:03:05 ApplicationLogs X
+16/07/2020 16:03:05 ApplicationLogs X
+16/07/2020 16:03:05 ApplicationLogs X
+16/07/2020 16:03:05 ApplicationLogs X
+16/07/2020 16:03:05 ApplicationLogs ****************result************************************************************************
+16/07/2020 16:03:05 ApplicationLogs $$$$$$$$$$$$$$$$$$$$$       Test Case started: errorPushwithAllMetaData    $$$$$$$$$$$$$$$$$$$$$$$$$
+16/07/2020 16:03:05 ApplicationLogs X
+16/07/2020 16:03:05 ApplicationLogs X
+16/07/2020 16:03:05 ApplicationLogs Constructing the request object
+16/07/2020 16:03:05 ApplicationLogs Creating request
+16/07/2020 16:03:05 ApplicationLogs Executing the requestcom.planSource.benefitSystem.restclient.PostAdapter@67ecf7ed[object=com.planSource.benefitSystem.pojo.MetaDataRequest@71418a4a,BASE URL=http://boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com,endPoint=/notify,contentType=application/json]
+16/07/2020 16:03:07 ApplicationLogs Verifying the response code
+16/07/2020 16:03:07 ApplicationLogs Verifying that the messages from the Error queue has been consumed 
+16/07/2020 16:03:07 ApplicationLogs TO ensure that the batch process has been run atleast once
+16/07/2020 16:09:07 ApplicationLogs Executing the Get request from the Error end point
+16/07/2020 16:09:08 ApplicationLogs Getting the messages from the report queue
+16/07/2020 16:09:08 ApplicationLogs Verifying that all messages has been pushed from report queue
+16/07/2020 16:09:08 ApplicationLogs X
+16/07/2020 16:09:08 ApplicationLogs X
+16/07/2020 16:09:08 ApplicationLogs XXXXXXXXXXXXXXXXXXXXXX    TEST CASE FAILED:errorPushwithAllMetaData    XXXXXXXXXXXXXXXXXXXXXX
+16/07/2020 16:09:08 ApplicationLogs XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+16/07/2020 16:09:08 ApplicationLogs ****************************************************************************************
+16/07/2020 16:09:08 ApplicationLogs ****************************************************************************************
+16/07/2020 16:09:08 ApplicationLogs X
+16/07/2020 16:09:08 ApplicationLogs X
+16/07/2020 16:09:08 ApplicationLogs XXXXXXXXXXXXXXXXXXXXXX    TEST CASE FAILED:errorPushwithAllMetaData    XXXXXXXXXXXXXXXXXXXXXX
+16/07/2020 16:09:08 ApplicationLogs XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+16/07/2020 16:09:08 ApplicationLogs ****************************************************************************************
+16/07/2020 16:09:08 ApplicationLogs ****************************************************************************************
+16/07/2020 16:09:08 ApplicationLogs X
+16/07/2020 16:09:08 ApplicationLogs X
+16/07/2020 16:09:08 ApplicationLogs ****************result************************************************************************
+16/07/2020 16:09:08 ApplicationLogs $$$$$$$$$$$$$$$$$$$$$       Test Case started: anomalyPushwithAllMetaData    $$$$$$$$$$$$$$$$$$$$$$$$$
+16/07/2020 16:09:08 ApplicationLogs X
+16/07/2020 16:09:08 ApplicationLogs X
+16/07/2020 16:09:08 ApplicationLogs X
+16/07/2020 16:09:08 ApplicationLogs X
+16/07/2020 16:09:08 ApplicationLogs ****************result************************************************************************
+16/07/2020 16:09:08 ApplicationLogs $$$$$$$$$$$$$$$$$$$$$       Test Case started: anomalyPushwithAllMetaData    $$$$$$$$$$$$$$$$$$$$$$$$$
+16/07/2020 16:09:08 ApplicationLogs X
+16/07/2020 16:09:08 ApplicationLogs X
+16/07/2020 16:09:08 ApplicationLogs Constructing the first request object
+16/07/2020 16:09:08 ApplicationLogs Creating first request
+16/07/2020 16:09:08 ApplicationLogs Executing the first requestcom.planSource.benefitSystem.restclient.PostAdapter@229749f0[object=com.planSource.benefitSystem.pojo.MetaDataRequest@771cbd13,BASE URL=http://boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com,endPoint=/notify,contentType=application/json]
+16/07/2020 16:09:09 ApplicationLogs Verifying the first response code
+16/07/2020 16:09:09 ApplicationLogs Constructing the second request object
+16/07/2020 16:09:09 ApplicationLogs Creating second request
+16/07/2020 16:09:09 ApplicationLogs Executing the second requestcom.planSource.benefitSystem.restclient.PostAdapter@e60c5a[object=com.planSource.benefitSystem.pojo.MetaDataRequest@7a021f49,BASE URL=http://boost-env-2-4-f01f4f9e1ad01872.elb.us-east-1.amazonaws.com,endPoint=/notify,contentType=application/json]
+16/07/2020 16:09:10 ApplicationLogs Verifying the first response code
+16/07/2020 16:09:10 ApplicationLogs Verifying that the messages from the Anomaly bucket has been consumed 
+16/07/2020 16:09:10 ApplicationLogs TO ensure that the batch process has been run atleast once
+16/07/2020 16:17:10 ApplicationLogs Executing the Get request from the Anomaly end point
+16/07/2020 16:17:18 ApplicationLogs Getting the messages from the Anomaly bucket
+16/07/2020 16:17:18 ApplicationLogs Verifying that all messages has been pushed from Anomaly bucket
+16/07/2020 16:17:18 ApplicationLogs X
+16/07/2020 16:17:18 ApplicationLogs X
+16/07/2020 16:17:18 ApplicationLogs XXXXXXXXXXXXXXXXXXXXXX    TEST CASE PASSED:anomalyPushwithAllMetaDataXXXXXXXXXXXXXXXXXXXXXX
+16/07/2020 16:17:18 ApplicationLogs XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+16/07/2020 16:17:18 ApplicationLogs ****************************************************************************************
+16/07/2020 16:17:18 ApplicationLogs ****************************************************************************************
+16/07/2020 16:17:18 ApplicationLogs X
+16/07/2020 16:17:18 ApplicationLogs X
+16/07/2020 16:17:18 ApplicationLogs XXXXXXXXXXXXXXXXXXXXXX    TEST CASE PASSED:anomalyPushwithAllMetaDataXXXXXXXXXXXXXXXXXXXXXX
+16/07/2020 16:17:18 ApplicationLogs XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+16/07/2020 16:17:18 ApplicationLogs ****************************************************************************************
+16/07/2020 16:17:18 ApplicationLogs ****************************************************************************************
+16/07/2020 16:17:18 ApplicationLogs Number of Passed Tests: 2
+16/07/2020 16:17:18 ApplicationLogs Failed Tests: [Test_007_ErrorbatchPushTest.errorPushwithAllMetaData()[pri:20, instance:com.planSource.benefitSystem.BatchPushTests.Test_007_ErrorbatchPushTest@396ef8b2]]
+16/07/2020 16:17:18 ApplicationLogs Skipped Tests: []
+16/07/2020 16:17:18 ApplicationLogs Number of Passed Tests: 2
+16/07/2020 16:17:18 ApplicationLogs Failed Tests: [Test_007_ErrorbatchPushTest.errorPushwithAllMetaData()[pri:20, instance:com.planSource.benefitSystem.BatchPushTests.Test_007_ErrorbatchPushTest@396ef8b2]]
+16/07/2020 16:17:18 ApplicationLogs Skipped Tests: []
+16/07/2020 16:17:19 ApplicationLogs X
+16/07/2020 16:17:19 ApplicationLogs X
+16/07/2020 16:17:19 ApplicationLogs ****************result************************************************************************
+16/07/2020 16:17:19 ApplicationLogs $$$$$$$$$$$$$$$$$$$$$       Test Case started: verifyGetFAPEndPoint    $$$$$$$$$$$$$$$$$$$$$$$$$
+16/07/2020 16:17:19 ApplicationLogs X
+16/07/2020 16:17:19 ApplicationLogs X
+16/07/2020 16:17:19 ApplicationLogs Creating request object
+16/07/2020 16:17:19 ApplicationLogs Executing the Get request from FAP Get end point
+16/07/2020 16:17:19 ApplicationLogs Verifying the  response code
+16/07/2020 16:17:19 ApplicationLogs X
+16/07/2020 16:17:19 ApplicationLogs X
+16/07/2020 16:17:19 ApplicationLogs XXXXXXXXXXXXXXXXXXXXXX    TEST CASE PASSED:verifyGetFAPEndPointXXXXXXXXXXXXXXXXXXXXXX
+16/07/2020 16:17:19 ApplicationLogs XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+16/07/2020 16:17:19 ApplicationLogs ****************************************************************************************
+16/07/2020 16:17:19 ApplicationLogs ****************************************************************************************
+16/07/2020 16:17:19 ApplicationLogs X
+16/07/2020 16:17:19 ApplicationLogs X
+16/07/2020 16:17:19 ApplicationLogs ****************result************************************************************************
+16/07/2020 16:17:19 ApplicationLogs $$$$$$$$$$$$$$$$$$$$$       Test Case started: verifyGetFAPEndPointMandatoryFields    $$$$$$$$$$$$$$$$$$$$$$$$$
+16/07/2020 16:17:19 ApplicationLogs X
+16/07/2020 16:17:19 ApplicationLogs X
+16/07/2020 16:17:19 ApplicationLogs Creating request object
+16/07/2020 16:17:19 ApplicationLogs Executing the Get request 
+16/07/2020 16:17:20 ApplicationLogs Verifying the  response code
+16/07/2020 16:17:20 ApplicationLogs Verifying the  Error Message
+16/07/2020 16:17:20 ApplicationLogs X
+16/07/2020 16:17:20 ApplicationLogs X
+16/07/2020 16:17:20 ApplicationLogs XXXXXXXXXXXXXXXXXXXXXX    TEST CASE PASSED:verifyGetFAPEndPointMandatoryFieldsXXXXXXXXXXXXXXXXXXXXXX
+16/07/2020 16:17:20 ApplicationLogs XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+16/07/2020 16:17:20 ApplicationLogs ****************************************************************************************
+16/07/2020 16:17:20 ApplicationLogs ****************************************************************************************
+16/07/2020 16:17:20 ApplicationLogs X
+16/07/2020 16:17:20 ApplicationLogs X
+16/07/2020 16:17:20 ApplicationLogs ****************result************************************************************************
+16/07/2020 16:17:20 ApplicationLogs $$$$$$$$$$$$$$$$$$$$$       Test Case started: verifyGetFAPEndPointAllFieldsValidation    $$$$$$$$$$$$$$$$$$$$$$$$$
+16/07/2020 16:17:20 ApplicationLogs X
+16/07/2020 16:17:20 ApplicationLogs X
+16/07/2020 16:17:20 ApplicationLogs Creating request object
+16/07/2020 16:17:20 ApplicationLogs Executing the Get request 
+16/07/2020 16:17:21 ApplicationLogs Verifying the  response code
+16/07/2020 16:17:21 ApplicationLogs X
+16/07/2020 16:17:21 ApplicationLogs X
+16/07/2020 16:17:21 ApplicationLogs XXXXXXXXXXXXXXXXXXXXXX    TEST CASE PASSED:verifyGetFAPEndPointAllFieldsValidationXXXXXXXXXXXXXXXXXXXXXX
+16/07/2020 16:17:21 ApplicationLogs XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+16/07/2020 16:17:21 ApplicationLogs ****************************************************************************************
+16/07/2020 16:17:21 ApplicationLogs ****************************************************************************************
+16/07/2020 16:17:21 ApplicationLogs Number of Passed Tests: 3
+16/07/2020 16:17:21 ApplicationLogs Failed Tests: []
+16/07/2020 16:17:21 ApplicationLogs Skipped Tests: []

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Rest API Test Automation Suite" verbose="1">
+
+	<parameter name="project" value="Boost" />
+	<parameter name="module" value="End to End" />
+	<parameter name="ReleaseVersion" value="3.3" />
+	<parameter name="Environment" value="Partner Dev" />
+	<parameter name="ExecutedBy" value="GL QA Team" />
+
+<test name="Batch Push" verbose="1">
+
+		<parameter name="guid" value="234" />
+		<parameter name="carrierLookup" value="guardianinsurance" />
+		<parameter name="eventType" value="enroll" />
+		<parameter name="orgID" value="435" />
+		<parameter name="sizeOfOrg" value="980" />
+		<groups>
+			<run>
+				<include name="batchPush" />
+			</run>
+		</groups>
+		<packages>
+			<package name="com.planSource.benefitSystem.*" />
+		</packages>
+	</test>
+
+
+
+
+
+
+	<!-- <listeners> <listener class-name="com.api.PlanSource.core.Listener" 
+		/> </listeners> -->
+
+</suite>

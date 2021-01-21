@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="PS Test Automation Suite" verbose="1">
+
+	<parameter name="project" value="Boost" />
+	<parameter name="module" value="Batch Push and FAP" />
+	<parameter name="ReleaseVersion" value="Cosmos_3" />
+	<parameter name="Environment" value="Partner Dev" />
+	<parameter name="ExecutedBy" value="GL QA Team" />
+
+
+	<test name="Batch Push Test" verbose="1">
+
+		<groups>
+			<run>
+				<include name="batchPush" />
+			</run>
+		</groups>
+		<packages>
+			<package name="com.planSource.benefitSystem.*" />
+		</packages>
+	</test>
+
+
+	<test name=" FAP Test " verbose="1">
+
+		<parameter name="carrier_code" value="234" />
+		<parameter name="zip_code" value="12312" />
+		<parameter name="distance" value="1232" />
+		<parameter name="plan_code" value="aasd" />
+		<parameter name="plan_type" value="asdasd" />
+		<parameter name="provider_name" value="asasd" />
+		<parameter name="office_name" value="asdasd" />
+		<parameter name="accepting_new" value="true" />
+		<parameter name="in_network" value="false" />
+		<parameter name="specialties" value="sdas" />
+		<groups>
+			<run>
+				<include name="fap" />
+			</run>
+		</groups>
+		<packages>
+			<package name="com.planSource.benefitSystem.*" />
+		</packages>
+	</test>
+
+
+
+
+
+	<!-- <listeners> <listener class-name="com.api.PlanSource.core.Listener" 
+		/> </listeners> -->
+
+</suite>

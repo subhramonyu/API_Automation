@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="PS BenefitSystem API Test Automation Suite"
+	verbose="1">
+
+	<parameter name="project" value="Boost" />
+	<parameter name="module" value="End to End" />
+	<parameter name="ReleaseVersion" value="3.3" />
+	<parameter name="Environment" value="Partner Dev" />
+	<parameter name="ExecutedBy" value="GL QA Team" />
+
+
+
+	<test name="Enrollment Flow" verbose="1">
+
+		<parameter name="guid" value="234" />
+		<parameter name="carrierLookup" value="guardianinsurance" />
+		<parameter name="eventType" value="enroll" />
+		<parameter name="orgID" value="435" />
+		<parameter name="sizeOfOrg" value="980" />
+		<groups>
+			<run>
+				<include name="enrollment" />
+			</run>
+		</groups>
+		<packages>
+			<package name="com.planSource.benefitSystem.*" />
+		</packages>
+	</test>
+
+
+
+	<test name="Termination Flow " verbose="1">
+
+		<parameter name="guid" value="901" />
+		<parameter name="carrierLookup" value="guardianinsurance" />
+		<parameter name="eventType" value="term" />
+		<parameter name="orgID" value="346" />
+		<parameter name="sizeOfOrg" value="289" />
+		<groups>
+			<run>
+				<include name="termination" />
+			</run>
+		</groups>
+		<packages>
+			<package name="com.planSource.benefitSystem.*" />
+		</packages>
+	</test>
+
+
+
+	<test name="REPORT END POINT" verbose="1">
+
+		<parameter name="guid" value="123" />
+		<parameter name="carrierLookup" value="guardianinsurance" />
+		<parameter name="eventType" value="enroll" />
+		<parameter name="orgID" value="2345" />
+		<parameter name="sizeOfOrg" value="201" />
+		<groups>
+			<run>
+				<include name="report" />
+			</run>
+		</groups>
+		<packages>
+			<package name="com.planSource.benefitSystem.*" />
+		</packages>
+	</test>
+	
+	
+	
+	<test name="ERROR END POINT" verbose="1">
+
+		<parameter name="guid" value="111" />
+		<parameter name="carrierLookup" value="guardianinsurance" />
+		<parameter name="eventType" value="enroll" />
+		<parameter name="orgID" value="9787" />
+		<parameter name="sizeOfOrg" value="807" />
+		<groups>
+			<run>
+				<include name="error" />
+			</run>
+		</groups>
+		<packages>
+			<package name="com.planSource.benefitSystem.*" />
+		</packages>
+	</test>
+
+
+
+	<test name="ANOMALY END POINT" verbose="1">
+
+		<parameter name="guid" value="234" />
+		<parameter name="carrierLookup" value="guardianinsurance" />
+		<parameter name="eventType" value="enroll" />
+		<parameter name="orgID" value="435" />
+		<parameter name="sizeOfOrg" value="5" />
+		<groups>
+			<run>
+				<include name="anomaly" />
+			</run>
+		</groups>
+		<packages>
+			<package name="com.planSource.benefitSystem.*" />
+		</packages>
+	</test>
+	
+	
+
+	<!-- <listeners> <listener class-name="com.planSource.benefitSystem.core.Listener" 
+		/> </listeners> -->
+
+</suite>

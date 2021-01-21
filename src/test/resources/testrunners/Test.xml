@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="PS BenefitSystem API Test Automation Suite" verbose="1">
+
+	<test name="Enrollment Flow Test" verbose="1">
+
+
+		<parameter name="guid" value="234" />
+		<parameter name="carrierLookup" value="Guardian" />
+		<parameter name="eventType" value="enroll" />
+		<parameter name="orgID" value="435" />
+		<parameter name="sizeOfOrg" value="980" />
+		
+
+		<groups>
+			<run>
+				<include name="enrollment" />
+			</run>
+		</groups>
+
+		<packages>
+			<package name="com.planSource.benefitSystem.*" />
+		</packages>
+
+
+	</test>
+	
+	<test name="Termination Flow Test" verbose="1">
+
+
+		<parameter name="guid" value="901" />
+		<parameter name="carrierLookup" value="Guardian" />
+		<parameter name="eventType" value="term" />
+		<parameter name="orgID" value="346" />
+		<parameter name="sizeOfOrg" value="289" />
+		
+
+		<groups>
+			<run>
+				<include name="termination" />
+			</run>
+		</groups>
+
+		<packages>
+			<package name="com.planSource.benefitSystem.*" />
+		</packages>
+
+
+	</test>
+	
+	
+	<!-- <listeners>
+		<listener class-name="com.planSource.benefitSystem.core.Listener" />
+	</listeners> -->
+	
+</suite>

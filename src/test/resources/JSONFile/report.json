@@ -1,0 +1,12 @@
+[
+  {
+    "reeiptHandle": "AQEBb/OV2470zX0uYJrZJrzLTP2DFH9XkNBPepHHepOlto45UCfoKhqZ55cL/qhZhjIBZwR+ye08/vOPpsDZS8AmF+nJaIddsR8yogtbzWB/MSKPe084A2k+t79k62TeLzg6gveHldnePU8Ow8Jf2lytxyOUrDhB7ig7BiMxBverzY4bz0bk+cvmTF29aaBw81D0MRKb/GuVVj7+Z4ZXnVIVxabw5AYszld/epDp074sXkj2WDWzVzwpO2fRFczIeAysbLahIfPb0yi0kaUB2YGVclYNC+igPYjlAK08mbkwsoc=",
+    "errorResponse": {
+      "timestamp": "2020-05-07T14:38:18.631+0000",
+      "message": "Error while invoking benefits admin api",
+      "payload": "{\"guid\":\"563\",\"carrierLookup\":\"Guardian\",\"eventType\":\"enroll\",\"orgID\":2323,\"sizeOfOrg\":11,\"isAnomaly\":true}",
+      "exceptionMessage": "500 Internal Server Error",
+      "exceptionCause": ""
+    }
+  }
+]
